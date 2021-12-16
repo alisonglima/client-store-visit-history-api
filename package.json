@@ -6,5 +6,7 @@
   "dependencies": {
     "json-server": "^0.17.0"
   },
-  "scrop"
+  "scripts": {
+    "start": "node server.js"
+  }
 }
