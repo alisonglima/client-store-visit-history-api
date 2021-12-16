@@ -1,0 +1,126 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Mesa branca",
+      "description": "Pequena mesa redonda e branca",
+      "price": "R$ 400,00",
+      "image": "https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80"
+    },
+    {
+      "id": 2,
+      "name": "Sofá",
+      "description": "Sofá de couro marrom",
+      "price": "R$ 500,00",
+      "image": "https://images.unsplash.com/photo-1540574163026-643ea20ade25?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+    },
+    {
+      "id": 3,
+      "name": "Prateleira",
+      "description": "Prateleira de madeira",
+      "price": "R$ 600,00",
+      "image": "https://images.unsplash.com/photo-1588111948296-83a8e036e004?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=822&q=80"
+    },
+    {
+      "id": 4,
+      "name": "Escrivaninha",
+      "description": "Escrivaninha de madeira",
+      "price": "R$ 700,00",
+      "image": "https://images.unsplash.com/photo-1532077678905-dbcfea8dcde1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+    },
+    {
+      "id": 5,
+      "name": "Estante",
+      "description": "Estande preta",
+      "price": "R$ 800,00",
+      "image": "https://images.unsplash.com/photo-1576428099555-75f2ab99513e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=784&q=80"
+    },
+    {
+      "id": 6,
+      "name": "Cadeira",
+      "description": "Cadeira de madeira",
+      "price": "R$ 900,00",
+      "image": "https://images.unsplash.com/photo-1562113530-57ba467cea38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=798&q=80"
+    },
+    {
+      "id": 7,
+      "name": "Cama",
+      "description": "Cama branca",
+      "price": "R$ 1000,00",
+      "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+    },
+    {
+      "id": 8,
+      "name": "Ventilador",
+      "description": "Ventilador de metal",
+      "price": "R$ 1100,00",
+      "image": "https://images.unsplash.com/photo-1581475802168-52bf225f742e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80"
+    },
+    {
+      "id": 9,
+      "name": "Poltrona",
+      "description": "Poltrona cinza",
+      "price": "R$ 1200,00",
+      "image": "https://images.unsplash.com/photo-1611967164521-abae8fba4668?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+      "id": 10,
+      "name": "Televisão",
+      "description": "Televisão analogica",
+      "price": "R$ 1300,00",
+      "image": "https://images.unsplash.com/photo-1528928441742-b4ccac1bb04c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80"
+    }
+  ],
+  "visited_products": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "user_id": 1
+    },
+    {
+      "id": 2,
+      "product_id": 5,
+      "user_id": 1
+    },
+    {
+      "id": 3,
+      "product_id": 6,
+      "user_id": 1
+    },
+    {
+      "id": 4,
+      "product_id": 7,
+      "user_id": 2
+    },
+    {
+      "id": 5,
+      "product_id": 8,
+      "user_id": 2
+    },
+    {
+      "id": 6,
+      "product_id": 9,
+      "user_id": 1
+    },
+    {
+      "id": 7,
+      "product_id": 10,
+      "user_id": 3
+    },
+    {
+      "id": 8,
+      "product_id": 2,
+      "user_id": 3
+    },
+    {
+      "id": 9,
+      "product_id": 3,
+      "user_id": 3
+    },
+    {
+      "id": 10,
+      "product_id": 4,
+      "user_id": 3
+    }
+  ]
+}
