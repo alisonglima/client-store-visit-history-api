@@ -1,126 +1,548 @@
 {
-  "products": [
-    {
-      "id": 1,
-      "name": "Mesa branca",
-      "description": "Pequena mesa redonda e branca",
-      "price": "R$ 400,00",
-      "image": "https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80"
-    },
-    {
-      "id": 2,
-      "name": "Sofá",
-      "description": "Sofá de couro marrom",
-      "price": "R$ 500,00",
-      "image": "https://images.unsplash.com/photo-1540574163026-643ea20ade25?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-    },
-    {
-      "id": 3,
-      "name": "Prateleira",
-      "description": "Prateleira de madeira",
-      "price": "R$ 600,00",
-      "image": "https://images.unsplash.com/photo-1588111948296-83a8e036e004?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=822&q=80"
-    },
-    {
-      "id": 4,
-      "name": "Escrivaninha",
-      "description": "Escrivaninha de madeira",
-      "price": "R$ 700,00",
-      "image": "https://images.unsplash.com/photo-1532077678905-dbcfea8dcde1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-    },
-    {
-      "id": 5,
-      "name": "Estante",
-      "description": "Estande preta",
-      "price": "R$ 800,00",
-      "image": "https://images.unsplash.com/photo-1576428099555-75f2ab99513e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=784&q=80"
-    },
-    {
-      "id": 6,
-      "name": "Cadeira",
-      "description": "Cadeira de madeira",
-      "price": "R$ 900,00",
-      "image": "https://images.unsplash.com/photo-1562113530-57ba467cea38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=798&q=80"
-    },
-    {
-      "id": 7,
-      "name": "Cama",
-      "description": "Cama branca",
-      "price": "R$ 1000,00",
-      "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-    },
-    {
-      "id": 8,
-      "name": "Ventilador",
-      "description": "Ventilador de metal",
-      "price": "R$ 1100,00",
-      "image": "https://images.unsplash.com/photo-1581475802168-52bf225f742e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80"
-    },
-    {
-      "id": 9,
-      "name": "Poltrona",
-      "description": "Poltrona cinza",
-      "price": "R$ 1200,00",
-      "image": "https://images.unsplash.com/photo-1611967164521-abae8fba4668?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-    },
-    {
-      "id": 10,
-      "name": "Televisão",
-      "description": "Televisão analogica",
-      "price": "R$ 1300,00",
-      "image": "https://images.unsplash.com/photo-1528928441742-b4ccac1bb04c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80"
-    }
-  ],
-  "visited_products": [
-    {
-      "id": 1,
-      "product_id": 1,
-      "user_id": 1
-    },
-    {
-      "id": 2,
-      "product_id": 5,
-      "user_id": 1
-    },
-    {
-      "id": 3,
-      "product_id": 6,
-      "user_id": 1
-    },
-    {
-      "id": 4,
-      "product_id": 7,
-      "user_id": 2
-    },
-    {
-      "id": 5,
-      "product_id": 8,
-      "user_id": 2
-    },
-    {
-      "id": 6,
-      "product_id": 9,
-      "user_id": 1
-    },
-    {
-      "id": 7,
-      "product_id": 10,
-      "user_id": 3
-    },
-    {
-      "id": 8,
-      "product_id": 2,
-      "user_id": 3
-    },
-    {
-      "id": 9,
-      "product_id": 3,
-      "user_id": 3
-    },
-    {
-      "id": 10,
-      "product_id": 4,
-      "user_id": 3
-    }
-  ]
+    "users": [
+        {
+            "id": 1,
+            "name": "Shantae",
+            "email": "shantae_steele@hotmail.com",
+            "token": "",
+            "favoriteStores": [5],
+            "favoriteProducts": [8, 2, 5]
+        },
+        {
+            "id": 2,
+            "name": "Tracey",
+            "email": "tracey_rees@outlook.com",
+            "token": "",
+            "favoriteStores": [4, 1],
+            "favoriteProducts": [7, 3]
+        },
+        {
+            "id": 3,
+            "name": "Xavier",
+            "email": "xavier_bourne@yahoo.com",
+            "token": "",
+            "favoriteStores": [3],
+            "favoriteProducts": [6, 3, 1]
+        },
+        {
+            "id": 4,
+            "name": "Pamula",
+            "email": "pamula_fielding@yandex.com",
+            "token": "",
+            "favoriteStores": [5, 2],
+            "favoriteProducts": [7, 2, 5]
+        },
+        {
+            "id": 5,
+            "name": "Herta",
+            "email": "herta_barnes@outlook.com",
+            "token": "",
+            "favoriteStores": [1],
+            "favoriteProducts": [7]
+        },
+        {
+            "id": 6,
+            "name": "Jinny",
+            "email": "jinny_preece@yahoo.com",
+            "token": "",
+            "favoriteStores": [2, 3],
+            "favoriteProducts": [8, 4, 2]
+        },
+        {
+            "id": 7,
+            "name": "Kellye",
+            "email": "kellye_leonard@mail.com",
+            "token": "",
+            "favoriteStores": [1, 4],
+            "favoriteProducts": [1, 2, 3]
+        },
+        {
+            "id": 8,
+            "name": "Santana",
+            "email": "santana_ross@yahoo.com",
+            "token": "",
+            "favoriteStores": [],
+            "favoriteProducts": []
+        },
+        {
+            "id": 9,
+            "name": "Cleo",
+            "email": "cleo_morley@hotmail.com",
+            "token": "",
+            "favoriteStores": [5, 2],
+            "favoriteProducts": [4, 2]
+        },
+        {
+            "id": 10,
+            "name": "Vern",
+            "email": "vern_bailey@mail.com",
+            "token": "",
+            "favoriteStores": [4],
+            "favoriteProducts": [4, 6, 3]
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "The Legend of Zelda Skyward Sword",
+            "price": 200,
+            "image": "https://professionalmorondotcom.files.wordpress.com/2019/06/the-legend-of-zelda.jpg",
+            "category": [1, 2],
+            "description": "Junte-se à Link em sua missão emotiva para salvar Zelda, uma amiga de infância que deve enfrentar seu destino. Seu vínculo especial no cerne da história é a melhor esperança do mundo para derrotar a escuridão invasora - e seu poder que ecoará através dos tempos. Embarque em uma missão que define o destino para superar antigas provações e forjar a poderosa Master Sword.",
+            "favorite": false,
+            "rate": 0,
+            "storeId": [1, 2, 4, 5, 8],
+            "type": 1
+        },
+        {
+            "id": 2,
+            "name": "Company of Heroes",
+            "price": 36.99,
+            "image": "https://techbit.pt/wp-content/uploads/2020/09/company-of-heroes-android-ios.jpg",
+            "category": [5, 2],
+            "description": "Com experiência de jogo visceral na 2ª GM, Company of Heroes redefine os RTS ao trazer à vida o sacrifício de soldados heroicos, ambientes devastados pela guerra e campos de batalha dinâmicos.",
+            "favorite": false,
+            "rate": 0,
+            "storeId": [3, 6, 7, 8, 9],
+            "type": 1
+        },
+        {
+            "id": 3,
+            "name": "The Legend of Zelda Breath of the Wild",
+            "price": 240.00,
+            "image": "https://mmovicio.com.br/wp-content/uploads/2021/05/1366_2000.jpg",
+            "category": [1, 2, 7],
+            "description": "Esqueça tudo que você sabe sobre os jogos da série The Legend of Zelda. Entre em um mundo de descobertas, exploração e aventura em The Legend of Zelda: Breath of the Wild, o novo jogo da famosa série que veio para romper barreiras. Viaje pelos vastos campos, florestas e montanhas enquanto descobre o que aconteceu com o reino de Hyrule nesta deslumbrante aventura a céu aberto.",
+            "favorite": false,
+            "rate": 0,
+            "storeId": [3, 4, 6, 7],
+            "type": 1
+        },
+        {
+            "id": 4,
+            "name": "XCOM 2",
+            "price": 240.00,
+            "image": "https://images.gog-statics.com/7c1632de7498519c33b422fd7e4af30a33db1ee84529b4a5cd6c708684d56099.jpg",
+            "category": [5, 1, 7],
+            "description": "XCOM 2 é um videojogo táctico por turnos produzido pela Firaxis Games e publicado pela 2K Games para Microsoft Windows, OS X e Linux a 5 de fevereiro de 2016. Em XCOM 2 a história tem lugar 20 anos depois dos eventos ocorrido em XCOM: Enemy Unknown, depois do XCOM ter perdido a guerra contra as forças alienígenas.",
+            "favorite": false,
+            "rate": 0,
+            "storeId": [3, 7],
+            "type": 1
+        },
+        {
+            "id": 5,
+            "name": "Hollow Knight",
+            "price": 27.99,
+            "image": "https://playreplay.com.br/wp-content/uploads/2018/08/0b98dabf3d9bc29e31a4dcb3d60dd2652bc165ab1ec70d00c352a275e7145ec7.jpg",
+            "category": [2, 3, 7],
+            "description": "Forje seu caminho em Hollow Knight! Uma aventura de ação épica em um vasto reino arruinado de insetos e heróis. Explore cavernas serpenteantes, lute contra criaturas malignas e alie-se a insetos bizarros num estilo clássico 2D desenhado à mão. ",
+            "favorite": false,
+            "rate": 0,
+            "storeId": [3, 4, 5, 6, 9],
+            "type": 1
+        },
+        {
+            "id": 6,
+            "name": "Dishonored",
+            "price": 29.99,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/205100/capsule_616x353.jpg?t=1598321484",
+            "category": [1, 2, 7],
+            "description": "Dishonored se passa na cidade industrial de Dunwall e conta a história de Corvo Atano, um guarda costas lendário da Imperatriz. Ele é vítima de conspiração ao ser acusado de assassiná-la. Forçado a andar nas sombras e se tornar um assassino, Atano recebe o auxílio de Outsider, um ser que lhe concede poderes mágicos.",
+            "favorite": false,
+            "rate": 0,
+            "storeId": [1, 2, 3, 4, 5, 6, 7],
+            "type": 1
+        },
+        {
+            "id": 7,
+            "name": "Dragon's Dogma Dark Arisen",
+            "price": 74.99,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/367500/capsule_616x353.jpg?t=1594713620",
+            "category": [1, 2, 7],
+            "description": "Set in a huge open world, Dragon’s Dogma: Dark Arisen presents a rewarding action combat experience. ",
+            "favorite": false,
+            "rate": 0,
+            "storeId": [4, 5, 6, 8, 9],
+            "type": 1
+        },
+        {
+            "id": 8,
+            "name": "Tom Clancy's Splinter Cell Blacklist",
+            "price": 89.99,
+            "image": "https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1vKNqRkYTeNuLtZfJfyDmn/b659464a7eb666dda9feccef14021b82/scbl-buy-wide_keyart-960x540.jpg",
+            "category": [1],
+            "description": "The United States has a military presence in two-thirds of countries around the world, and some of them have had enough. A group of terrorists calling themselves The Engineers initiate a terror ultimatum called the Blacklist - a deadly countdown of escalating attacks on U.S. interests.",
+            "favorite": false,
+            "rate": 0,
+            "storeId": [1, 2, 7, 8],
+            "type": 1
+        },
+        {
+            "id": 9,
+            "name": "Remnant From the Ashes",
+            "price": 75.49,
+            "image": "https://www.conversadesofa.com/wp-content/uploads/2020/08/remnant_2abd.jpg",
+            "category": [1, 2, 7],
+            "description": "The world has been thrown into chaos by an ancient evil from another dimension. As one of the last remnants of humanity, you must set out alone or alongside up to two other survivors to face down hordes of deadly enemies to try to carve a foothold, rebuild, and retake what was lost. ",
+            "favorite": false,
+            "rate": 0,
+            "storeId": [1, 2, 4, 5, 8, 9],
+            "type": 1
+        },
+        {
+            "id": 10,
+            "name": "Psychonauts 2",
+            "price": 249.00,
+            "image": "https://compass-ssl.xbox.com/assets/01/83/018368ec-fd35-4699-9b3c-3a782edf926c.jpg?n=984302_GLP-Page-Hero-0_1083x609.jpg",
+            "category": [1, 2, 3],
+            "description": "Dishonored se passa na cidade industrial de Dunwall e conta a história de Corvo Atano, um guarda costas lendário da Imperatriz. Ele é vítima de conspiração ao ser acusado de assassiná-la. Forçado a andar nas sombras e se tornar um assassino, Atano recebe o auxílio de Outsider, um ser que lhe concede poderes mágicos.",
+            "favorite": false,
+            "rate": 0,
+            "storeId": [1, 4, 5, 6, 8, 9],
+            "type": 1
+        },
+        {
+            "id": 11,
+            "name": "Resident Evil Revelations 2",
+            "price": 74.99,
+            "image": "https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_ResidentEvilRevelations2_image1600w.jpg",
+            "category": [1, 2],
+            "description": "RE Revelations 2 traz de volta a experiência essencial de survival horror, enquanto apresenta verdades perturbadoras ",
+            "favorite": false,
+            "rate": 0,
+            "storeId": [2, 3, 5, 6],
+            "type": 1
+        },
+        {
+            "id": 12,
+            "name": "Murder Mystery Machine",
+            "price": 37.99,
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/930280/capsule_616x353.jpg?t=1629884393",
+            "category": [2],
+            "description": "Junta-te à District Crime Agency neste thriller noir e moderno com visão isométrica. Explora as cenas do crime através de diaporamas complexos, organiza as tuas provas de forma inteligente, pondera entre o bem e o mal e apresenta as tuas hipóteses. Tens o estofo de um verdadeiro detetive?",
+            "favorite": false,
+            "rate": 0,
+            "storeId": [2, 5, 6, 7, 9],
+            "type": 1
+        },
+        {
+            "id": 13,
+            "name": "Monster Hunter World",
+            "price": 69.43,
+            "image": "https://i.ytimg.com/vi/q3SSWTqr850/maxresdefault.jpg",
+            "category": [1, 2, 7],
+            "description": "Conheça o Novo Mundo! Em Monster Hunter: World, o jogo mais recente da série, você pode curtir a experiência máxima de caçada, usando tudo à sua disposição para caçar monstros em um novo mundo repleto de surpresas e emoções.",
+            "favorite": false,
+            "rate": 0,
+            "storeId": [1, 2, 3, 4, 5, 6, 8],
+            "type": 1
+        },
+        {
+            "id": 14,
+            "name": "Valorant",
+            "price": 0,
+            "image": "https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2020/6/2/akoqciwp4hrh5fhrbuba/games-valorant-capa",
+            "category": [1],
+            "description": "VALORANT é um FPS competitivo 5x5 com personagens da Riot Games. Disponível globalmente. Domine várias armas e habilidades diferentes e mostre do que é capaz. Jogadas táticas. Alta letalidade. Esports. 5x5. Jogo em Equipe. Gratuito. ",
+            "favorite": false,
+            "rate": 0,
+            "storeId": [1, 2, 4, 5, 6, 7, 8, 9],
+            "type": 1
+        },
+        {
+            "id": 15,
+            "name": "Baldur's Gate 3",
+            "price": 199.99,
+            "image": "https://d3a1b16i91oc1g.cloudfront.net/article_title_medium/1a7ac7e72421d13a35a24339b8548092.jpeg",
+            "category": [2, 7],
+            "description": "Gather your party, and return to the Forgotten Realms in a tale of fellowship and betrayal, sacrifice and survival, and the lure of absolute power.",
+            "favorite": false,
+            "rate": 0,
+            "storeId": [1, 3, 4, 7, 8],
+            "type": 1
+        },
+        {
+            "id": 16,
+            "name": "Forza Horizon 4",
+            "price": 99.99,
+            "image": "https://compass-ssl.xbox.com/assets/6a/31/6a31393d-b0cc-4833-8e82-fd3a2c6b6e19.jpg?n=FH4_GLP-Page-Hero-1084_1920x1080_02.jpg",
+            "category": [4],
+            "description": "Dishonored se passa na cidade industrial de Dunwall e conta a história de Corvo Atano, um guarda costas lendário da Imperatriz. Ele é vítima de conspiração ao ser acusado de assassiná-la. Forçado a andar nas sombras e se tornar um assassino, Atano recebe o auxílio de Outsider, um ser que lhe concede poderes mágicos.",
+            "favorite": false,
+            "rate": 0,
+            "storeId": [1, 3, 6],
+            "type": 1
+        },
+        {
+            "id": 17,
+            "name": "DayZ",
+            "price": 119.99,
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/221100/capsule_616x353.jpg?t=1637681887",
+            "category": [1],
+            "description": "Quanto você aguenta em um mundo pós-apocalíptico? Uma terra arrasada por 'zumbis' infectados, onde você compete com outros sobreviventes por recursos limitados. Você vai ajudar estranhos em sua luta? Ou evitará traições como um lobo solitário? Esse é o DayZ. Essa é a sua história",
+            "favorite": false,
+            "rate": 0,
+            "storeId": [1, 4, 5, 7],
+            "type": 1
+        },
+        {
+            "id": 18,
+            "name": "BPM: BULLETS PER MINUTE",
+            "price": 37.99,
+            "image": "https://xboxpower-wp.s3.amazonaws.com/wp-content/uploads/2021/04/Hit-BPM-Bullets-Per-Minute-1024x490.png",
+            "category": [1, 7],
+            "description": "BPM é um FPS roguelike de ação rítmica no qual você deve atirar, pular e desviar, ao som de uma trilha sonora épica de rock. Mergulhe em uma masmorra gerada aleatoriamente, na qual uma nota errada pode levar à sua morte.",
+            "favorite": false,
+            "rate": 0,
+            "storeId": [2, 3, 5, 7, 9],
+            "type": 1
+        },
+        {
+            "id": 19,
+            "name": "Divinity: Original Sin 2 ",
+            "price": 27.99,
+            "image": "https://xpgg.com.br/wp-content/uploads/2018/05/Divinity-Original-Sin-2-definitive-edition.jpg",
+            "category": [2, 7],
+            "description": "O RPG aclamado pela crítica que elevou o nível, dos criadores de Baldur's Gate 3. Reúna sua equipe. Domine o intenso combate tático. Aventure-se com uma equipe de até quatro membros, mas saiba que apenas um terá a chance de ascender à Divindade.",
+            "favorite": false,
+            "rate": 0,
+            "storeId":[1, 2, 3, 4, 5, 6, 7, 8, 9],
+            "type": 1
+        },
+        {
+            "id": 20,
+            "name": "Playstation 5",
+            "price": 5000,
+            "image": "https://files.tecnoblog.net/wp-content/uploads/2020/11/playstation_5_produto-700x700.png",
+            "description": "A quinta versão do console da Sony",
+            "favorite": false,
+            "rate": 0,
+            "storeId": [1,3,4,5,8,9],
+            "type": 2
+        },
+        {
+            "id": 21,
+            "name": "Xbox Series S",
+            "price": 2699,
+            "image": "https://images.kabum.com.br/produtos/fotos/128561/console-microsoft-xbox-series-s-500gb-branco-rrs-00006_1601067301_g.jpg",
+            "description": "A versão simples do novo console da Microsoft",
+            "favorite": false,
+            "rate": 0,
+            "storeId": [1, 2, 3, 5, 6, 7, 8],
+            "type": 2
+        },
+        {
+            "id": 22,
+            "name": "Xbox Series X",
+            "price": 4699,
+            "image": "https://images.kabum.com.br/produtos/fotos/128560/console-microsoft-xbox-series-x-1tb-preto-rrt-00006_1601067024_g.jpg",
+            "description": "A versão potente do novo console da Microsoft",
+            "favorite": false,
+            "rate": 0,
+            "storeId": [1, 4, 5, 8, 9],
+            "type": 2
+        }
+    ],
+    "gameCategories": [
+        {
+            "id": 1,
+            "name": "Ação"
+        },
+        {
+            "id": 2,
+            "name": "Aventura"
+        },
+        {
+            "id": 3,
+            "name": "Plataforma"
+        },
+        {
+            "id": 4,
+            "name": "Esportes"
+        },
+        {
+            "id": 5,
+            "name":"Estratégia"
+        },
+        {
+            "id": 6,
+            "name": "Clássicos"
+        },
+        {
+            "id": 7,
+            "name": "RPG"
+        }
+    ],
+    "stores": [
+        {
+        "id": 1,
+        "name": "AAA Store",
+        "logo": "https://raw.githubusercontent.com/tiago-yoneda/test-json-server/main/src/assets/aaa_store_logo.png",
+        "logo_transparent": "https://raw.githubusercontent.com/tiago-yoneda/test-json-server/main/src/assets/aaa_store_logo_t.png",
+        "categories": ["Video Games", "Retail", "Eletronics"],
+        "addresses": [
+            {"text": "Av. Paulista, 2064 - Bela Vista, São Paulo - SP, 01310-928", "lat": "-23.557473694507337", "long": "-46.65886310287397"},
+            {"text": "Av. Paulista, 500 - Bela Vista, São Paulo - SP, 01310-000", "lat": "-23.56776334561749", "long": "-46.64808057981867"},
+            {"text": "Av. Paulista, 1499 Lojas 02 e 03 - Bela Vista, São Paulo, 01310-200", "lat": "-23.5622368566953", "long": "-46.65574320680579"},
+            {"text": "Av. Paulista, 2026 - Bela Vista, São Paulo - SP, 01310-200", "lat": "-23.558641323908482", "long": "-46.6591402399081"},
+            {"text": "Avenida Paulista, 854 LUC, 34 - S - Bela Vista, São Paulo, 01310-100", "lat": "-23.565548927333847", "long": "-46.65078060680578"},
+            {"text": "Piso Térreo, Av. Paulista, 1203 - Bela Vista, São Paulo, 01311-200", "lat": "-23.563293357486142", "long": "-46.6525436779703"},
+            {"text": "Alameda Santos, 1054 - Cerqueira César, São Paulo - SP, 01418-100", "lat": "-23.56576577636843", "long": "-46.65295256447675"}
+        ],
+        "rating": 5
+        },
+        {
+        "id": 2,
+        "name": "Ace Store",
+        "logo": "https://raw.githubusercontent.com/tiago-yoneda/test-json-server/main/src/assets/ace_store_logo.png",
+        "logo_transparent": "https://raw.githubusercontent.com/tiago-yoneda/test-json-server/main/src/assets/ace_store_logo_t.png",
+        "categories": ["Video Games", "Computer Parts"],
+        "addresses": [
+            {"text": "Av. Paulista, 810 - Bela Vista, São Paulo - SP, 01310-100", "lat": "-23.5658444489047", "long": "-46.65036155070805"},
+            {"text": "Av. Paulista, 1230 - Bela Vista, São Paulo - SP, 01310-100", "lat": "-23.563583411727695", "long": "-46.65305467797031"},
+            {"text": "Av. Paulista, 2034 - Bela Vista, São Paulo - SP, 01310-300", "lat": "-23.558498971200933", "long": "-46.65929434238804"},
+            {"text": "Av. Paulista, 1811 - Bela Vista, São Paulo - SP, 01311-200", "lat": "-23.56023875177397", "long": "-46.658026300059"},
+            {"text": "Av. Paulista, 1811 - Bela Vista, São Paulo - SP, 01311-200", "lat": "-23.560179729541822", "long": "-46.6580584886017"},
+            {"text": "Av. Paulista, 2064 - Cerqueira César, São Paulo - SP, 01310-928", "lat": "-23.557686448947297", "long": "-46.659125206038766"},
+            {"text": "Av. Paulista, 854 - Bela Vista, São Paulo - SP, 01310-913", "lat": "-23.565658388912528", "long": "-46.65077169346159"}
+        ],
+        "rating": 3
+        },
+        {
+        "id": 3,
+        "name": "Many Games",
+        "logo": "https://raw.githubusercontent.com/tiago-yoneda/test-json-server/main/src/assets/many_games_logo.png",
+        "logo_transparent": "https://raw.githubusercontent.com/tiago-yoneda/test-json-server/main/src/assets/many_games_logo_t.png",
+        "categories": ["Video Games", "Gift Cards", "Accessories"],
+        "addresses": [
+            {"text": "Avenida Paulista, 2001 - Loja 68 Galeria 2001, São Paulo - SP, 01310-300", "lat": "-23.558735738686796", "long": "-46.65922838099198"},
+            {"text": "Av. Paulista, 1471 - Loja 26 - Bela Vista, São Paulo - SP, 01311-200", "lat": "-23.561981115354502", "long": "-46.65549474624455"},
+            {"text": "Av. Paulista, 2073 - Loja 100 - Bela Vista, São Paulo - SP, 01311-300", "lat": "-23.557889960691398", "long": "-46.66045146823682"},
+            {"text": "Top Center - Avenida Paulista, 854 - Piso Térreo - Bela Vista, São Paulo - SP, 01310-100", "lat": "-23.56524608007693", "long": "-46.65077405863286"},
+            {"text": "Av. Paulista, 2300 Andar Pilotis - Consolação, São Paulo - SP, 01310-300", "lat": "-23.556296736193854", "long": "-46.66077333330126"},
+            {"text": "Av. Paulista, 1230 - Bela Vista, São Paulo - SP, 01310-100", "lat": "-23.562984215561052", "long": "-46.65270524901946"},
+            {"text": "Av. Paulista, 2001 - 04/05 - Bela Vista, São Paulo - SP, 01310-200", "lat": "-23.558873422961515", "long": "-46.65942150003063"}
+        ],
+        "rating": 4
+        },
+        {
+        "id": 4,
+        "name": "Play Games",
+        "logo": "https://raw.githubusercontent.com/tiago-yoneda/test-json-server/main/src/assets/play_games_logo.png",
+        "logo_transparent": "https://raw.githubusercontent.com/tiago-yoneda/test-json-server/main/src/assets/play_games_logo_t.png",
+        "categories": ["Video Games", "Computer Parts"],
+        "addresses": [
+            {"text": "Av. Paulista, 1636 - conjunto 1504 - Cerqueira César, São Paulo - SP, 01310-200", "lat": "-23.560663182864513", "long": "-46.65641742642955"},
+            {"text": "Av. Paulista, 2163 - Bela Vista, São Paulo - SP, 01311-933", "lat": "-23.55785049950509", "long": "-46.66092353733162"},
+            {"text": "Av. Paulista, 436 - Bela Vista, São Paulo - SP, 01310-000", "lat": "-23.56800971879734", "long": "-46.6475358848941"},
+            {"text": "Av. Paulista, 453 - Paraíso, São Paulo - SP, 01311-000", "lat": "-23.56867842242976", "long": "-46.648351276390684"},
+            {"text": "Av. Paulista, 949 A - Bela Vista, São Paulo - SP, 01311-100", "lat": "-23.56525619738169", "long": "-46.651720130731746"},
+            {"text": "Av. Paulista, 2300 - Consolação, São Paulo - SP, 01310-300", "lat": "-23.556188836686843", "long": "-46.66118296391074"},
+            {"text": "Av. Paulista, 2212 - Bela Vista, São Paulo - SP, 01310-300", "lat": "-23.558552229094637", "long": "-46.65951243031519"}
+        ],
+        "rating": 3
+        },
+        {
+        "id": 5,
+        "name": "Sea Jogos",
+        "logo": "https://raw.githubusercontent.com/tiago-yoneda/test-json-server/main/src/assets/sea_jogos.png",
+        "logo_transparent": "https://raw.githubusercontent.com/tiago-yoneda/test-json-server/main/src/assets/sea_jogos_t.png",
+        "categories": ["Video Games", "Accessories"],
+        "addresses": [
+            {"text": "Av. Paulista, 810 - Bela Vista, São Paulo - SP, 01310-100", "lat": "-23.565570249404555", "long": "-46.650367579851604"},
+            {"text": "Av. Paulista, 358 - Bela Vista, São Paulo - SP, 01310-000", "lat": "-23.56840243530667", "long": "-46.64695580994068"},
+            {"text": "Av. Paulista, 807 - Conj. 2315 - 23º andar - Bela Vista, São Paulo - SP, 01311-100", "lat": "-23.56642749961137", "long": "-46.65103624782487"},
+            {"text": "Av. Paulista, 1230 - Bela Vista, São Paulo - SP, 01310-100", "lat": "-23.563597354800567", "long": "-46.65293731027568"},
+            {"text": "Av. Paulista, 1904 - Bela Vista, São Paulo - SP, 01310-200", "lat": "-23.5591298120571", "long": "-46.65829600961882"},
+            {"text": "Av. Paulista, 2064 - Cerqueira César, São Paulo - SP, 01310-928", "lat": "-23.557352108818936", "long": "-46.659291196719984"},
+            {"text": "Av. Paulista, 2113 - Consolação, São Paulo - SP, 01311-300", "lat": "-23.55820587716656", "long": "-46.66015879564923"}
+        ],
+        "rating": 3
+        },
+        {
+        "id": 6,
+        "name": "Sea Games",
+        "logo": "https://raw.githubusercontent.com/tiago-yoneda/test-json-server/main/src/assets/sea_store_logo.png",
+        "logo_transparent": "https://raw.githubusercontent.com/tiago-yoneda/test-json-server/main/src/assets/sea_store_logo_t.png",
+        "categories": ["Video Games"],
+        "addresses": [
+            {"text": "Av. Paulista, 497 - Paraíso, São Paulo - SP, 01310-000", "lat": "-23.567971189228988", "long": "-46.648599315630165"},
+            {"text": "Av. Paulista, 1009 - Bela Vista, São Paulo - SP, 01310-100", "lat": "-23.565308214646613", "long": "-46.65229978930062"},
+            {"text": "Av. Paulista, 960 - Bela Vista, São Paulo - SP, 01333-904", "lat": "-23.564835357976715", "long": "-46.65157907823526"},
+            {"text": "Av. Paulista, 1471 - Loja 3 - Bela Vista, São Paulo - SP, 01332-040", "lat": "-23.562352832595145", "long": "-46.65570609752117"},
+            {"text": "Av. Paulista, 1499 - Loja 6 - Bela Vista, São Paulo - SP, 01311-200", "lat": "-23.562157052451916", "long": "-46.65582719328878"},
+            {"text": "Av. Paulista, 1765 - Paraíso, São Paulo - SP, 01311-930", "lat": "-23.560585455190992", "long": "-46.65786794358365"},
+            {"text": "Av. Paulista, 2073 - Consolação, São Paulo - SP, 01311-300", "lat": "-23.55849804607167", "long": "-46.66003026635972"}
+        ],
+        "rating": 5
+        },
+        {
+        "id": 7,
+        "name": "Taverna Games",
+        "logo": "https://raw.githubusercontent.com/tiago-yoneda/test-json-server/main/src/assets/taverna_games_logo.png",
+        "logo_transparent": "https://raw.githubusercontent.com/tiago-yoneda/test-json-server/main/src/assets/taverna_games_logo_t.png",
+        "categories": ["Video Games", "Board games"],
+        "addresses": [
+            {"text": "Av. Paulista, 648 - Loja 1 - Bela Vista, São Paulo - SP, 01310-100", "lat": "-23.56703743082752", "long": "-46.64925753203906"},
+            {"text": "Av. Paulista, 810 - Bela Vista, São Paulo - SP, 01310-100", "lat": "-23.565848347832716", "long": "-46.65055481196628"},
+            {"text": "Av. Paulista, 726 - Loja 13 - Bela Vista, São Paulo - SP, 01310-100", "lat": "-23.56646722861445", "long": "-46.64950788436422"},
+            {"text": "Av. Paulista, 1159 - 7 - Bela Vista, São Paulo - SP, 01311-200", "lat": "-23.564304609951506", "long": "-46.65343006993653"},
+            {"text": "Av. Paulista, 123456 - Centro Histórico de São Paulo, São Paulo - SP, 01311-300", "lat": "-23.56339086296291", "long": "-46.65443688303635"},
+            {"text": "Av. Paulista, 1499 - Loja 58 - Bela Vista, São Paulo - SP, 01311-200", "lat": "-23.56221565481162", "long": "-46.65584037301608"},
+            {"text": "2114, Av. Paulista, 2040 - Bela Vista, São Paulo - SP, 01310-200", "lat": "-23.558474389599215", "long": "-46.65938323709699"}
+        ],
+        "rating": 5
+        },
+        {
+        "id": 8,
+        "name": "Tech Games",
+        "logo": "https://raw.githubusercontent.com/tiago-yoneda/test-json-server/main/src/assets/tech_games.png",
+        "logo_transparent": "https://raw.githubusercontent.com/tiago-yoneda/test-json-server/main/src/assets/tech_games_t.png",
+        "categories": ["Video Games", "VR Games"],
+        "addresses": [
+            {"text": "Av. Paulista, 266 - Bela Vista, São Paulo - SP, 01310-000", "lat": "-23.5691661867283", "long": "-46.64639242157031"},
+            {"text": "Av. Brigadeiro Luís Antônio, 2215 - Bela Vista, São Paulo - SP, 01317-002", "lat": "-23.567235951501146", "long": "-46.648729665004495"},
+            {"text": "Av. Paulista, 807 - Bela Vista, São Paulo - SP, 01311-100", "lat": "-23.566319773639172", "long": "-46.650864722591784"},
+            {"text": "Av. Paulista, 995 - Bela Vista, São Paulo - SP, 01311-100", "lat": "-23.565346250877845", "long": "-46.65216958895133"},
+            {"text": "Av. Paulista, 1227 - L 01 - Bela Vista, São Paulo - SP, 01311-200", "lat": "-23.563851183996178", "long": "-46.65391446842079"},
+            {"text": "Av. Paulista, 2073 - LJ 107 - Cerqueira César, São Paulo - SP, 01311-300", "lat": "-23.558600930612272", "long": "-46.65993050957764"},
+            {"text": "Av. Paulista, 2408 - Bela Vista, São Paulo - SP, 01310-300", "lat": "-23.556197682854236", "long": "-46.661899240979686"}
+        ],
+        "rating": 2
+        },
+        {
+        "id": 9,
+        "name": "Wild Store",
+        "logo": "https://raw.githubusercontent.com/tiago-yoneda/test-json-server/main/src/assets/wild_store_logo.png",
+        "logo_transparent": "https://raw.githubusercontent.com/tiago-yoneda/test-json-server/main/src/assets/wild_store_logo_t.png",
+        "categories": ["Video Games", "Lan House", "Hamburger"],
+        "addresses": [
+            {"text": "Av. Paulista, 2439 - 7° andar - Bela Vista, São Paulo - SP, 01311-300", "lat": "-23.556335096205327", "long": "-46.66254279370243"},
+            {"text": "Av. Paulista, 2313 - Sobreloja - Cerqueira César, São Paulo - SP, 01311-300", "lat": "-23.556994024536422", "long": "-46.66182396172518"},
+            {"text": "Av. Paulista, 2073 - Cerqueira César, São Paulo - SP, 01311-940", "lat": "-23.558538067534354", "long": "-46.659860584832145"},
+            {"text": "Av. Paulista, 1963 - Bela Vista, São Paulo - SP, 01311-300", "lat": "-23.559246157618336", "long": "-46.65910956634847"},
+            {"text": "Av. Paulista, 1754 - 12 Andar - Bela Vista, São Paulo - SP, 01310-920", "lat": "-23.560190271842583", "long": "-46.65730712182568"},
+            {"text": "1373, Av. Paulista, 1345 - Bela Vista, São Paulo - SP, 01311-200", "lat": "-23.563042242258327", "long": "-46.65478584539044"},
+            {"text": "Av. Paulista, 925 - Bela Vista, São Paulo - SP, 01310-100", "lat": "-23.56560896271211", "long": "-46.65164229645795"}
+        ],
+        "rating": 3
+        }
+    ],
+    "subscriptions":[
+        {
+            "userName":"Vitor Cardoso",
+            "subscriptionType":"Anual",
+            "game":"Company of Heroes",
+            "price":299.9,
+            "creditCard":{
+                "number":"5491655158022349",
+                "validDate":"22/22",
+                "cvv":"051",
+                "name":"VITOR CARDOSO",
+                "cpf": "63193691089"
+            }
+        }
+    ],
+    "visited_products": []
 }
